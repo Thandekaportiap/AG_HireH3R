@@ -1,7 +1,8 @@
 //import Main from "./components/main"//
 
-import Homepage from './pages/homepage'
-import Signup from './pages/signUp'
+import Homepage from './pages/homepage';
+import SignUp from './pages/signUp';
+import Verify from './pages/verify'
 
 
 
@@ -11,8 +12,10 @@ function App() {
   return (
     <>
     <div><Homepage/></div>
-    <div><Signup/></div>
+    <div><SignUp/></div>
+    <div><Verify/></div>
     </>
+    
   )
 }
 
